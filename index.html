@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logooo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#contact">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Hilal</span><br></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="hhh.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, my name is Hilal Habeeb and I am 23 years old. I am from Kerala, India, a beautiful state known for its palm-lined beaches, serene backwaters, and lush greenery. I am currently pursuing a Master of Computer Applications (MCA) degree at Amaljyothi College of Engineering. My interests include UI/UX design, website design, database management, and staying up-to-date with the latest technologies. I am passionate about technology and am excited to see where my education and interests will take me in the future. It's a pleasure to meet you!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Projects</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>Programming Languages</span><br>C, C++, Java, Python (Django), PHP</li>
+                            <li><span>Database Management</span><br>MySQL, MongoDB</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Testing</span><br>Selenium</li>
+                            <li><span>Dev Tools</span><br>GitHub, VS Code, Figma</li>
+                            <li><span>Additional Technologies</span><br>MS Office (Word, Excel, etc.)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2024 - Present</span><br>
+                                Turf Booking System in Python Django<br>
+                                Developed a web application for turf booking using Python and Django. Implemented user authentication, real-time availability tracking, and payment integration for a seamless user experience.
+                            </li>
+                            <li>
+                                <span>2023</span><br>
+                                Smart Class Essentials E-commerce in PHP<br>
+                                Created an e-commerce platform for smart class essentials using PHP. Implemented a user-friendly interface to enhance the online shopping experience.
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2024</span><br>Pursuing MCA from AMAL JYOTHI COLLEGE OF ENGINEERING,KOOVAPPALLY</li>
+                            <li><span>2019-2022</span><br>BCA from ST GEORGE'S COLLEGE,ARUVITHURA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="new.html">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi
+                        officia, alias vitae fugiat fuga exercitationem.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpeg" alt="">
+                    <div class="layer">
+                        <h2>Turf Booking System</h2>
+                        <p>The Sportigo Turf Booking System is an innovative software application revolutionizing the reservation and management of sports facilities,
+                             providing users with an intuitive platform for seamless bookings, dynamic resource allocation,
+                              and real-time communication. With features like virtual facility previews and AI-driven pricing,
+                             it transforms the landscape of sports facility management, optimizing user experiences and operational efficiency.</p>
+                        <a href="https://github.com/hilalhabeeb/sportigoturfbooking"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpeg" alt="">
+                    <div class="layer">
+                        <h2>Simple Python experiments</h2>
+                        <p>Basic Python experiments </p>
+                        <a href="https://github.com/hilalhabeeb/simple-python-programs"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.jpeg" alt="">
+                    <div class="layer">
+                        <h2>Data Science & Machine Learning </h2>
+                        <p>Expirements using various ML algorithms like KNN,K-means Clustering,Naive Bayes,Decision Tree,Regression</p>
+                        <a href="https://github.com/hilalhabeeb/DSML"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> hilalhabb@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91 9562075338</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/hilal.habeeb.1"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/hilal.hbb?igsh=MWd1MDcyMHg5dW1sMg=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/hilal-habeeb-b37300277"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="resume_hilalhbb.pdf" download class="btn btn2">Download CV</a>
+                </div>
+<div class="contact-right">
+    <form action="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hilalhabb@gmail.com" method="post">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn3">Submit</button>
+    </form>
+</div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ hilal.hbb . Made with <i class="fas fa-heart"></i> by Hilal Habeeb</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
